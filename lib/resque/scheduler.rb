@@ -88,7 +88,7 @@ module Resque
           scheduler_jobs = rufus_scheduler.jobs
           if scheduler_jobs.present?
             scheduler_jobs.each do |_k, v|
-              log! "#{v.t}\t#{v.last}\t"
+              #log! "#{v.t}\t#{v.last}\t"
             end
           end
         end
